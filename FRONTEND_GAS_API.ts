@@ -1,6 +1,6 @@
 // API Client untuk Google Apps Script
 
-const GAS_API_URL = process.env.NEXT_PUBLIC_GAS_API_URL || '';
+const GAS_API_URL = process.env.NEXT_PUBLIC_GAS_API_URL || 'https://script.google.com/macros/s/AKfycby3r9EXymoOQiK4OOjVhY8GzB7ZRezBCMhbenuHKa0put4fMiuHprRF0FNGHkhffPSewg/exec';
 
 interface GASResponse<T = any> {
   success: boolean;
